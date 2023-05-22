@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import SayHello from "./SayHello";
+import SubmitEvent from "./component/chap01_event/SubmitEvent";
 
 function App() {
 
@@ -16,7 +17,7 @@ function App() {
     //{}로 묶어서 함수호출이나 변수참조가 가능하고 세미콜론 생략하는 문법으로 사용
   return (
     <>
-        {looping()}
+        <SubmitEvent />
     </>
   );
 }
